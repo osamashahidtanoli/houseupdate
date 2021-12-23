@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Metropolis-regular";
+  src: url("./fonts/metropolis-family/Metropolis-Regular.otf");
+}
+@font-face {
+  font-family: "Metropolis-bold";
+  src: url("./fonts/metropolis-family/Metropolis-Bold.otf");
+}
+@font-face {
+  font-family: "Metropolis-semi-bold";
+  src: url("./fonts/metropolis-family/Metropolis-SemiBold.otf");
+}
+@font-face {
+  font-family: "Metropolis-medium";
+  src: url("./fonts/metropolis-family/Metropolis-Medium.otf");
+}
+
+.MuiTypography-root{
+  font-family: "Metropolis-regular" !important;
+}
+
+body {
+  font-family: "Metropolis-regular" !important;
+}

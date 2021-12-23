@@ -1,0 +1,56 @@
+.headerGrid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr;
+  grid-gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #007fff;
+  align-self: center;
+}
+
+.actionButtons {
+  justify-self: end;
+}
+
+.flexButtons {
+    align-self: center;
+  /* display: flex; */
+  
+}
+
+.flexButtons button{
+padding-left: 25px;
+font-weight: 500;
+align-self: center;
+
+}
+
+.borderBlue {
+  border-color: #007fff !important;
+}
+
+.nav{
+    border: 1px solid #ddd;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    list-style: none;
+    
+}
+
+.nav ul li {
+    font-weight: bold;
+    color: #253D4E;
+    margin-left: 4rem;
+    font-size: 1.2rem;
+
+}
